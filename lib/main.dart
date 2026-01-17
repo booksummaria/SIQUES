@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:forgot/app_colors.dart';
 import 'package:forgot/splash_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Forgot Password Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         useMaterial3: true,
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
