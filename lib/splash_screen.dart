@@ -3,7 +3,7 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:forgot/app_colors.dart';
 import 'package:forgot/home_screen.dart';
 import 'package:page_transition/page_transition.dart';
-import 'loginScreen.dart';
+// import 'loginScreen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
