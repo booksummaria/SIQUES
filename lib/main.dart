@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'Forgot Password Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: AppColors.primary,
+          secondary: AppColors.secondary,
+        ),
         useMaterial3: true,
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
